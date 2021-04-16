@@ -1,0 +1,16 @@
+@import './reset';
+@import './colors';
+@import './helper';
+
+$max-width: rem(1170);
+
+.container {
+    margin-inline: auto;
+    width: Min(90%, $max-width);
+}
+
+section {
+    background-color: $color-main;
+    color: $color-white;
+    padding: rem(10) rem(15);
+}

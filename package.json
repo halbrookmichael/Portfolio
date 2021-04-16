@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "node-sass -w ./src/scss/ -o ./src/css/ --recursive ",
+    "watch-pug": "pug -w . -o . -P"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2"
+  }
+}
