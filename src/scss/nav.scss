@@ -1,0 +1,15 @@
+.main-nav {
+    background-color: red;
+}
+ul.main-nav__links {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -15px;
+}
+ ul.main-nav__links li {
+    margin-right: 15px;
+}
+ul.main-nav__links li a {
+    color: #fff;
+    text-decoration: none;
+}

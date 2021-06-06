@@ -5,6 +5,7 @@
   box-sizing: border-box; }
 
 /* Remove default padding */
+ul,
 ul[class],
 ol[class] {
   padding: 0; }
@@ -65,6 +66,21 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
+
+.main-nav {
+  background-color: red; }
+
+ul.main-nav__links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -15px; }
+
+ul.main-nav__links li {
+  margin-right: 15px; }
+
+ul.main-nav__links li a {
+  color: #fff;
+  text-decoration: none; }
 
 .container {
   margin-inline: auto;

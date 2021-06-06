@@ -66,31 +66,3 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
-
-.main-nav {
-  background-color: red; }
-
-ul.main-nav__links {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: -15px; }
-
-ul.main-nav__links li {
-  margin-right: 15px; }
-
-ul.main-nav__links li a {
-  color: #fff;
-  text-decoration: none; }
-
-.container {
-  margin-inline: auto;
-  width: Min(90%, 73.125em); }
-
-section {
-  background-color: green;
-  color: #fff;
-  padding: 0.625em 0.9375em; }
-
-header {
-  margin-bottom: 0.625em;
-  background-color: orange; }
